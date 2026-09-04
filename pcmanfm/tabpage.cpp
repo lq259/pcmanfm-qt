@@ -19,7 +19,6 @@
 
 
 #include "tabpage.h"
-#include "launcher.h"
 #include <libfm-qt6/filemenu.h>
 #include <libfm-qt6/mountoperation.h>
 #include <libfm-qt6/proxyfoldermodel.h>
@@ -108,6 +107,7 @@ TabPage::TabPage(QWidget* parent):
     proxyModel_{nullptr},
     proxyFilter_{nullptr},
     verticalLayout{nullptr},
+    incremental_search(false),
     overrideCursor_(false),
     selectionTimer_(nullptr),
     filterBar_(nullptr),
@@ -120,6 +120,7 @@ TabPage::TabPage(QWidget* parent):
     proxyModel_->setShowHidden(settings.showHidden());
     proxyModel_->setBackupAsHidden(settings.backupAsHidden());
     proxyModel_->setShowThumbnails(settings.showThumbnails());
+    connect(proxyModel_, &QAbstractItemModel::rowsInserted, this, &TabPage::onRowsInserted);
     connect(proxyModel_, &ProxyFolderModel::sortFilterChanged, this, [this] {
         QToolTip::showText(QPoint(), QString()); // remove the tooltip, if any
         if(!changingDir_) {
@@ -311,6 +312,17 @@ void TabPage::onFolderStartLoading() {
     if(folderModel_){
         disconnect(folderModel_, &Fm::FolderModel::filesAdded, this, &TabPage::onFilesAdded);
     }
+    bool wasSearching = incremental_search;
+    incremental_search = folder_ && folder_->isIncremental();
+    if(incremental_search != wasSearching) {
+        Q_EMIT searchingChanged(incremental_search);
+    }
+    if(incremental_search) {
+        // the search replaces this tab's content in place, so whatever item count was shown
+        // for the previous folder is now stale and misleading until the first results arrive
+        statusText_[StatusTextNormal] = QString();
+        Q_EMIT statusChanged(StatusTextNormal, statusText_[StatusTextNormal]);
+    }
     if(!overrideCursor_) {
         // FIXME: sometimes FmFolder of libfm generates unpaired "start-loading" and
         // "finish-loading" signals of uncertain reasons. This should be a bug in libfm.
@@ -481,6 +493,11 @@ void TabPage::onFolderFinishLoading() {
         Q_EMIT titleChanged();
     }
 
+    if(incremental_search) { // the search itself is done, regardless of the outcome
+        incremental_search = false;
+        Q_EMIT searchingChanged(false);
+    }
+
     folder_->queryFilesystemInfo(); // FIXME: is this needed?
 #if 0
     FmFolderView* fv = folder_view;
@@ -580,6 +597,16 @@ void TabPage::onFolderFsInfo() {
     Q_EMIT statusChanged(StatusTextFSInfo, msg);
 }
 
+void TabPage::onRowsInserted() {
+    if(incremental_search) {
+        // reuse the exact same "N file(s) found" text/pipeline shown once the search finishes,
+        // so the live count in the status bar just keeps counting up rather than jumping to a
+        // different message when the search completes
+        statusText_[StatusTextNormal] = formatStatusText();
+        Q_EMIT statusChanged(StatusTextNormal, statusText_[StatusTextNormal]);
+    }
+}
+
 QString TabPage::formatStatusText() {
     if(proxyModel_ && folder_) {
         // FIXME: this is very inefficient
@@ -587,7 +614,8 @@ QString TabPage::formatStatusText() {
         int total_files = files.size();
         int shown_files = proxyModel_->rowCount();
         int hidden_files = total_files - shown_files;
-        QString text = tr("%n item(s)", "", shown_files);
+        QString text = folder_->path().hasUriScheme("search") ? tr("%n item(s) found", "", shown_files)
+                                                               : tr("%n item(s)", "", shown_files);
         if(hidden_files > 0) {
             text += tr(" (%n hidden)", "", hidden_files);
         }
@@ -697,7 +725,15 @@ void TabPage::chdir(Fm::FilePath newPath, bool addHistory) {
     localizeTitle(newPath);
     Q_EMIT titleChanged();
 
-    folder_ = Fm::Folder::fromPath(newPath);
+    Settings& settings = static_cast<Application*>(qApp)->settings();
+    folderSettings_ = settings.loadFolderSettings(newPath);
+
+    // use incremental listing when searching, if enabled in Preferences -> Advanced -> Search
+    bool incremental = settings.incrementalSearch()
+                       && newPath.hasUriScheme("search")
+                       // detailed list mode is not compatible with incremental listing
+                       && folderSettings_.viewMode() != Fm::FolderView::DetailedListMode;
+    folder_ = Fm::Folder::fromPath(newPath, incremental);
     if(addHistory) {
         // add current path to browse history
         history_.add(path());
@@ -713,7 +749,6 @@ void TabPage::chdir(Fm::FilePath newPath, bool addHistory) {
     connect(folder_.get(), &Fm::Folder::unmount, this, &TabPage::onFolderUnmount);
     connect(folder_.get(), &Fm::Folder::contentChanged, this, &TabPage::onFolderContentChanged);
 
-    Settings& settings = static_cast<Application*>(qApp)->settings();
     folderModel_ = CachedFolderModel::modelFromFolder(folder_);
     // always show display names in special places because real names may be unusual
     // (e.g., real names of trashed files may contain trash path with backslash)
@@ -728,7 +763,6 @@ void TabPage::chdir(Fm::FilePath newPath, bool addHistory) {
         proxyFilter_->filterFullName(true);
     }
 
-    folderSettings_ = settings.loadFolderSettings(path());
     // set sorting
     proxyModel_->sort(folderSettings_.sortColumn(), folderSettings_.sortOrder());
     proxyModel_->setFolderFirst(folderSettings_.sortFolderFirst());
@@ -773,6 +807,12 @@ void TabPage::reload() {
         item.setScrollPos(childView->verticalScrollBar()->value());
 
         folder_->reload();
+    }
+}
+
+void TabPage::stopSearch() {
+    if(incremental_search && folder_) {
+        folder_->stopLoading();
     }
 }
 

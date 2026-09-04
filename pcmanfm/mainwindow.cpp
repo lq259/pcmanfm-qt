@@ -199,6 +199,33 @@ MainWindow::MainWindow(Fm::FilePath path):
     fsInfoLabel_ = new QLabel(ui.statusbar);
     ui.statusbar->addPermanentWidget(fsInfoLabel_);
 
+    // "Searching…" text + busy indicator, shown together in the status bar
+    // while the current tab is running a "search://" query.
+    const int statusBarRowHeight = ui.statusbar->fontMetrics().height();
+    searchingLabel_ = new QLabel(tr("Searching…"), ui.statusbar);
+    searchingLabel_->hide();
+    ui.statusbar->addPermanentWidget(searchingLabel_);
+    searchBusyIndicator_ = new QProgressBar(ui.statusbar);
+    searchBusyIndicator_->setFixedWidth(150);
+    searchBusyIndicator_->setFixedHeight(statusBarRowHeight);
+    searchBusyIndicator_->setTextVisible(false);
+    searchBusyIndicator_->setRange(0, 0); // indeterminate/busy mode
+    searchBusyIndicator_->hide();
+    ui.statusbar->addPermanentWidget(searchBusyIndicator_);
+    searchStopButton_ = new QToolButton(ui.statusbar);
+    searchStopButton_->setAutoRaise(true);
+    searchStopButton_->setIconSize(QSize(statusBarRowHeight, statusBarRowHeight));
+    searchStopButton_->setIcon(QIcon::fromTheme(QStringLiteral("process-stop"),
+                                                 style()->standardIcon(QStyle::SP_BrowserStop)));
+    searchStopButton_->setToolTip(tr("Stop searching"));
+    searchStopButton_->hide();
+    connect(searchStopButton_, &QToolButton::clicked, this, [this] {
+        if(TabPage* tabPage = currentPage()) {
+            tabPage->stopSearch();
+        }
+    });
+    ui.statusbar->addPermanentWidget(searchStopButton_);
+
     // setup the splitter
     ui.splitter->setStretchFactor(1, 1); // only the right pane can be stretched
     QList<int> sizes;
@@ -690,6 +717,7 @@ int MainWindow::addTabWithPage(TabPage* page, ViewFrame* viewFrame, Fm::FilePath
     int index = viewFrame->getStackedWidget()->addWidget(page);
     connect(page, &TabPage::titleChanged, this, &MainWindow::onTabPageTitleChanged);
     connect(page, &TabPage::statusChanged, this, &MainWindow::onTabPageStatusChanged);
+    connect(page, &TabPage::searchingChanged, this, &MainWindow::onTabPageSearchingChanged);
     connect(page, &TabPage::sortFilterChanged, this, &MainWindow::onTabPageSortFilterChanged);
     connect(page, &TabPage::backwardRequested, this, &MainWindow::on_actionGoBack_triggered);
     connect(page, &TabPage::forwardRequested, this, &MainWindow::on_actionGoForward_triggered);
@@ -1435,6 +1463,11 @@ void MainWindow::updateStatusBarForCurrentPage() {
     text = tabPage->statusText(TabPage::StatusTextFSInfo);
     fsInfoLabel_->setText(text);
     fsInfoLabel_->setVisible(!text.isEmpty());
+
+    bool incrementalSearch = tabPage->isIncrementalSearch();
+    searchingLabel_->setVisible(incrementalSearch);
+    searchBusyIndicator_->setVisible(incrementalSearch);
+    searchStopButton_->setVisible(incrementalSearch);
 }
 
 void MainWindow::updateViewMenuForCurrentPage() {
@@ -1588,6 +1621,9 @@ void MainWindow::updateUIForCurrentPage(bool setFocus) {
         ui.actionGoForward->setEnabled(tabPage->canForward());
 
         ui.actionOpenAsAdmin->setEnabled(tabPage->path() && tabPage->path().isNative());
+        // searching from a search results tab would default to "search://..." as the
+        // location to search, which isn't a real, searchable path
+        ui.actionFindFiles->setEnabled(!tabPage->path().hasUriScheme("search"));
 
         updateViewMenuForCurrentPage();
         updateStatusBarForCurrentPage();
@@ -1716,6 +1752,15 @@ void MainWindow::onTabPageStatusChanged(int type, QString statusText) {
     // Since TabPage::statusChanged is always emitted after View::selChanged,
     // there is no need to connect a separate slot to the latter signal
     updateSelectedActions();
+}
+
+void MainWindow::onTabPageSearchingChanged(bool searching) {
+    TabPage* tabPage = static_cast<TabPage*>(sender());
+    if(tabPage == currentPage()) {
+        searchingLabel_->setVisible(searching);
+        searchBusyIndicator_->setVisible(searching);
+        searchStopButton_->setVisible(searching);
+    }
 }
 
 void MainWindow::onTabPageSortFilterChanged() { // NOTE: This may be called from context menu too.

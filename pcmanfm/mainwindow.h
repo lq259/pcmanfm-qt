@@ -31,6 +31,8 @@
 #include <QTabBar>
 #include <QStackedWidget>
 #include <QSplitter>
+#include <QProgressBar>
+#include <QToolButton>
 #include "launcher.h"
 #include "tabbar.h"
 #include <libfm-qt6/core/filepath.h>
@@ -200,6 +202,7 @@ protected Q_SLOTS:
 
     void onTabPageTitleChanged();
     void onTabPageStatusChanged(int type, QString statusText);
+    void onTabPageSearchingChanged(bool searching);
     void onTabPageSortFilterChanged();
 
     void onSidePaneChdirRequested(int type, const Fm::FilePath &path);
@@ -269,6 +272,9 @@ private:
     Fm::PathEdit* pathEntry_;
     Fm::PathBar* pathBar_;
     QLabel* fsInfoLabel_;
+    QLabel* searchingLabel_;
+    QProgressBar* searchBusyIndicator_;
+    QToolButton* searchStopButton_;
     std::shared_ptr<Fm::Bookmarks> bookmarks_;
     Launcher fileLauncher_;
     int rightClickIndex_;

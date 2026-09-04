@@ -214,6 +214,12 @@ public:
         return statusText_[type];
     }
 
+    bool isIncrementalSearch() const {
+        return incremental_search;
+    }
+
+    void stopSearch();
+
     bool canBackward() {
         return history_.canBackward();
     }
@@ -292,6 +298,7 @@ public:
 Q_SIGNALS:
     void statusChanged(int type, QString statusText);
     void titleChanged();
+    void searchingChanged(bool searching);
     void sortFilterChanged();
     void forwardRequested();
     void backwardRequested();
@@ -308,6 +315,7 @@ protected Q_SLOTS:
     void onFilesAdded(const Fm::FileInfoList files);
     void onFilterStringChanged(QString str);
     void onLosingFilterBarFocus();
+    void onRowsInserted();
 
 private:
     void freeFolder();
@@ -333,6 +341,7 @@ private:
     Fm::ProxyFolderModel* proxyModel_;
     ProxyFilter* proxyFilter_;
     QVBoxLayout* verticalLayout;
+    bool incremental_search;
     std::shared_ptr<Fm::Folder> folder_;
     QString title_;
     QString statusText_[StatusTextNum];

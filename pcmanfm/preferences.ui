@@ -185,21 +185,21 @@
             <item>
              <widget class="QCheckBox" name="useTrash">
               <property name="text">
-               <string>Move deleted files to &quot;trash bin&quot; instead of erasing from disk.</string>
+               <string>Move deleted files to Trash instead of erasing from disk</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QCheckBox" name="noUsbTrash">
               <property name="text">
-               <string>Erase files on removable media instead of &quot;trash can&quot; creation</string>
+               <string>Erase files on removable media instead of Trash creation</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QCheckBox" name="confirmTrash">
               <property name="text">
-               <string>Confirm before moving files into &quot;trash can&quot;</string>
+               <string>Confirm before moving files into Trash</string>
               </property>
              </widget>
             </item>
@@ -991,6 +991,16 @@ lxsudo dbus-run-session -- %s</string>
              <widget class="QToolButton" name="clearSearchHistory">
               <property name="text">
                <string>Clear search history</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0" colspan="2">
+             <widget class="QCheckBox" name="incrementalSearch">
+              <property name="toolTip">
+               <string>Does not work with the detailed list mode</string>
+              </property>
+              <property name="text">
+               <string>Use incremental listing when searching</string>
               </property>
              </widget>
             </item>
