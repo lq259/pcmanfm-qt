@@ -553,13 +553,21 @@ jika folder tersebut diklik kiri, walaupun PCManFM-Qt bukan file manager standar
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Tampilan Slide</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Tampilan Slide</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Aktifkan Tampilan Slide</translation>
+        <translation type="vanished">Aktifkan Tampilan Slide</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -597,6 +605,11 @@ jika folder tersebut diklik kiri, walaupun PCManFM-Qt bukan file manager standar
         <translation> menit</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Jangan tampilkan tooltip berkas</translation>
@@ -607,9 +620,8 @@ jika folder tersebut diklik kiri, walaupun PCManFM-Qt bukan file manager standar
         <translation>Folder kertas dinding</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Mengacak tampilan slide</translation>
+        <translation type="vanished">Mengacak tampilan slide</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

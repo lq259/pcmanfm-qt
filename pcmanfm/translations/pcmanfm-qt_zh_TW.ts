@@ -553,13 +553,21 @@ are left clicked, even when it is not the default file manager.</source>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>幻燈片播放</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">幻燈片播放</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>啟用幻燈片播放</translation>
+        <translation type="vanished">啟用幻燈片播放</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -597,6 +605,11 @@ are left clicked, even when it is not the default file manager.</source>
         <translation> 分鐘</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>不要顯示檔案工具提示</translation>
@@ -607,9 +620,8 @@ are left clicked, even when it is not the default file manager.</source>
         <translation>桌布資料夾</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>隨機幻燈片播放</translation>
+        <translation type="vanished">隨機幻燈片播放</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

@@ -533,13 +533,13 @@ are left clicked, even when it is not the default file manager.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation></translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
-        <source>Enable Slide Show</source>
-        <translation></translation>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -577,6 +577,11 @@ are left clicked, even when it is not the default file manager.</translation>
         <translation></translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation type="unfinished">Do not show file tooltips</translation>
@@ -587,9 +592,8 @@ are left clicked, even when it is not the default file manager.</translation>
         <translation></translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Randomise the slide show</translation>
+        <translation type="vanished">Randomise the slide show</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

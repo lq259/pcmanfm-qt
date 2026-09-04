@@ -552,13 +552,21 @@ clicadas com o botão esquerdo, mesmo quando não for o gerenciador de arquivos 
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Apresentação de slides</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Apresentação de slides</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Habilitar apresentação de slides</translation>
+        <translation type="vanished">Habilitar apresentação de slides</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -596,6 +604,11 @@ clicadas com o botão esquerdo, mesmo quando não for o gerenciador de arquivos 
         <translation> minuto(s)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation type="unfinished">Não exibir dicas de arquivo</translation>
@@ -606,9 +619,8 @@ clicadas com o botão esquerdo, mesmo quando não for o gerenciador de arquivos 
         <translation>Pasta de papel de parede</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Apresentação de slides aleatória</translation>
+        <translation type="vanished">Apresentação de slides aleatória</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

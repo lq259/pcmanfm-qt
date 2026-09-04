@@ -553,13 +553,21 @@ el gestor de fitxers predeterminat.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Presentació de diapositives</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Presentació de diapositives</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Habilita la presentació de diapositives</translation>
+        <translation type="vanished">Habilita la presentació de diapositives</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -597,6 +605,11 @@ el gestor de fitxers predeterminat.</translation>
         <translation> minut(s)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>No mostris informació emergent de fitxers</translation>
@@ -607,9 +620,8 @@ el gestor de fitxers predeterminat.</translation>
         <translation>Carpeta del fons d&apos;escriptori</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Aleatoritza la presentació de diapositives</translation>
+        <translation type="vanished">Aleatoritza la presentació de diapositives</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

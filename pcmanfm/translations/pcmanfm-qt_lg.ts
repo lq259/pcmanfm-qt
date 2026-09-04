@@ -554,13 +554,21 @@ are left clicked, even when it is not the default file manager.</source>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Ebifaananyi Ebyekyusa</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Ebifaananyi Ebyekyusa</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Ekifaananyi eky&apos;okubwaliriro kyekyusenga</translation>
+        <translation type="vanished">Ekifaananyi eky&apos;okubwaliriro kyekyusenga</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -598,6 +606,11 @@ are left clicked, even when it is not the default file manager.</source>
         <translation> dakiika</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Tompanga magezi ku bya fayiro</translation>
@@ -608,9 +621,8 @@ are left clicked, even when it is not the default file manager.</source>
         <translation>Tterekero omuli ebifaananyi eby&apos;oku bwaliriro</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Ebifaananyi bijjenga muwawa</translation>
+        <translation type="vanished">Ebifaananyi bijjenga muwawa</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

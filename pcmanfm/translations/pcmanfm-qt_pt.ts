@@ -552,13 +552,21 @@ se clicar com o botão esquerdo do rato - mesmo que este não seja o gestor de f
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Apresentação</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Apresentação</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Ativar apresentação</translation>
+        <translation type="vanished">Ativar apresentação</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -596,6 +604,11 @@ se clicar com o botão esquerdo do rato - mesmo que este não seja o gestor de f
         <translation> minuto(s)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Não mostrar dicas de ficheiros</translation>
@@ -606,9 +619,8 @@ se clicar com o botão esquerdo do rato - mesmo que este não seja o gestor de f
         <translation>Pasta do papel de parede</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Apresentação aleatória</translation>
+        <translation type="vanished">Apresentação aleatória</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

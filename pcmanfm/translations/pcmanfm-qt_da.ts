@@ -552,13 +552,21 @@ venstreklikkes på dem, selv hvis den ikke er defineret som standardfilhåndteri
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Diasshow</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Diasshow</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Aktivér diasshow</translation>
+        <translation type="vanished">Aktivér diasshow</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -596,6 +604,11 @@ venstreklikkes på dem, selv hvis den ikke er defineret som standardfilhåndteri
         <translation> minut(ter)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Vis ikke værktøjstips for filer</translation>
@@ -606,9 +619,8 @@ venstreklikkes på dem, selv hvis den ikke er defineret som standardfilhåndteri
         <translation>Tapetmappe</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Tilfældiggør diasshowet</translation>
+        <translation type="vanished">Tilfældiggør diasshowet</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

@@ -552,13 +552,21 @@ are left clicked, even when it is not the default file manager.</source>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Слайд-шоу</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Слайд-шоу</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Увімкнути слайд-шоу</translation>
+        <translation type="vanished">Увімкнути слайд-шоу</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -596,6 +604,11 @@ are left clicked, even when it is not the default file manager.</source>
         <translation> хвилин(и)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Не показувати підказки для файлів</translation>
@@ -606,9 +619,8 @@ are left clicked, even when it is not the default file manager.</source>
         <translation>Тека зоражень тла</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Випадковий порядок показу слайдів</translation>
+        <translation type="vanished">Випадковий порядок показу слайдів</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

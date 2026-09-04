@@ -553,13 +553,21 @@ numatytoji failų tvarkytuvė.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Skaidrių rodymas</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Skaidrių rodymas</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Įjungti skaidrių rodymą</translation>
+        <translation type="vanished">Įjungti skaidrių rodymą</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -597,6 +605,11 @@ numatytoji failų tvarkytuvė.</translation>
         <translation> minutė(-ių)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Nerodyti failų paaiškinimų</translation>
@@ -607,9 +620,8 @@ numatytoji failų tvarkytuvė.</translation>
         <translation>Darbalaukio fonų aplankas</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Atsitiktinė tvarka</translation>
+        <translation type="vanished">Atsitiktinė tvarka</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

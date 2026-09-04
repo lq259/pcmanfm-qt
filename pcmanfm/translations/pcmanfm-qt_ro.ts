@@ -552,13 +552,21 @@ sunt apăsate stânga, chiar și atunci când nu este managerul de fișiere impl
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Slide Show</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Slide Show</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Activați Slide-Show-ul</translation>
+        <translation type="vanished">Activați Slide-Show-ul</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -596,6 +604,11 @@ sunt apăsate stânga, chiar și atunci când nu este managerul de fișiere impl
         <translation> minut(e)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation type="unfinished"></translation>
@@ -606,9 +619,8 @@ sunt apăsate stânga, chiar și atunci când nu este managerul de fișiere impl
         <translation>Folderul Wallpaperul-ui</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Randomizați slide-show-ul</translation>
+        <translation type="vanished">Randomizați slide-show-ul</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

@@ -554,13 +554,21 @@ geöffnet, selbst wenn es nicht der Standard-Dateimanager ist.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Diashow</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Diashow</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Diashow aktivieren</translation>
+        <translation type="vanished">Diashow aktivieren</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -598,6 +606,11 @@ geöffnet, selbst wenn es nicht der Standard-Dateimanager ist.</translation>
         <translation> Minute(n)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Keine Kurzinfo zu Dateien anzeigen</translation>
@@ -608,9 +621,8 @@ geöffnet, selbst wenn es nicht der Standard-Dateimanager ist.</translation>
         <translation>Hintergrundbild-Ordner</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Zufällige Diashow</translation>
+        <translation type="vanished">Zufällige Diashow</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

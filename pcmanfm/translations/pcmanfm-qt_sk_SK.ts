@@ -553,13 +553,21 @@ kliknete ľavým tlačidlom myši, aj keď nejde o predvoleného správcu súbor
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Prezentovať</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Prezentovať</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Meniť obrázky na pozadí</translation>
+        <translation type="vanished">Meniť obrázky na pozadí</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -597,6 +605,11 @@ kliknete ľavým tlačidlom myši, aj keď nejde o predvoleného správcu súbor
         <translation> .minúty</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation type="unfinished">Nezobrazovať podrobnosti pri presunutí myši na súbor</translation>
@@ -607,9 +620,8 @@ kliknete ľavým tlačidlom myši, aj keď nejde o predvoleného správcu súbor
         <translation>Priečinok s tapetami</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Náhodné poradie, prezentácia</translation>
+        <translation type="vanished">Náhodné poradie, prezentácia</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

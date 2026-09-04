@@ -552,13 +552,21 @@ are left clicked, even when it is not the default file manager.</source>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Слайдшоу</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Слайдшоу</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Слайдшоуды іске қосу</translation>
+        <translation type="vanished">Слайдшоуды іске қосу</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -596,6 +604,11 @@ are left clicked, even when it is not the default file manager.</source>
         <translation> минут</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Файлдың қалқымалы нұсқауларын көрсетпеу</translation>
@@ -606,9 +619,8 @@ are left clicked, even when it is not the default file manager.</source>
         <translation>Тұсқағаз бумасы</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Слайдшоуды кездейсоқ ретпен қою</translation>
+        <translation type="vanished">Слайдшоуды кездейсоқ ретпен қою</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

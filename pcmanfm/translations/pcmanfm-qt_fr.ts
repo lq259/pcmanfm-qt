@@ -554,13 +554,21 @@ avec un clic gauche, même si aucun gestionnaire de fichiers n&apos;est défini 
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Diaporama</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Diaporama</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Activer le diaporama</translation>
+        <translation type="vanished">Activer le diaporama</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -598,6 +606,11 @@ avec un clic gauche, même si aucun gestionnaire de fichiers n&apos;est défini 
         <translation> minute(s)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation type="unfinished">Ne pas afficher les info-bulles de fichier</translation>
@@ -608,9 +621,8 @@ avec un clic gauche, même si aucun gestionnaire de fichiers n&apos;est défini 
         <translation>Dossier des fonds d&apos;écran</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Défilement aléatoire des diapositives</translation>
+        <translation type="vanished">Défilement aléatoire des diapositives</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

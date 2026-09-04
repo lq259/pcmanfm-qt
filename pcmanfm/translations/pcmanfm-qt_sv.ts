@@ -552,13 +552,21 @@ vänsterklickas, även när den inte är standard filhanterare.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Bildspel</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Bildspel</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Starta bildspel</translation>
+        <translation type="vanished">Starta bildspel</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -596,6 +604,11 @@ vänsterklickas, även när den inte är standard filhanterare.</translation>
         <translation> minuter</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Visa inte filverktygstips</translation>
@@ -606,9 +619,8 @@ vänsterklickas, även när den inte är standard filhanterare.</translation>
         <translation>Mapp för bakgrundsbilder</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Slumpa bildspelet</translation>
+        <translation type="vanished">Slumpa bildspelet</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

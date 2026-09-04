@@ -548,13 +548,21 @@ PCManFM-Qt에서 열립니다.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>슬라이드 쇼</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">슬라이드 쇼</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>슬라이드 쇼 활성화</translation>
+        <translation type="vanished">슬라이드 쇼 활성화</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -592,6 +600,11 @@ PCManFM-Qt에서 열립니다.</translation>
         <translation> 분</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>파일 툴팁 표시 안함</translation>
@@ -602,9 +615,8 @@ PCManFM-Qt에서 열립니다.</translation>
         <translation>배경화면 폴더</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>슬라이드 쇼 임의 재생</translation>
+        <translation type="vanished">슬라이드 쇼 임의 재생</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

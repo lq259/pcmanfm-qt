@@ -533,13 +533,21 @@ ezkerreko klik egiten dira, fitxategi-kudeatzaile lehenetsia ez denean ere.</tra
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Diapositiba aurkezpena</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Diapositiba aurkezpena</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Gaitu diapositiba aurkezpena</translation>
+        <translation type="vanished">Gaitu diapositiba aurkezpena</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -577,6 +585,11 @@ ezkerreko klik egiten dira, fitxategi-kudeatzaile lehenetsia ez denean ere.</tra
         <translation> minutu(ak)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation type="unfinished">Ez erakutsi fitxategien argibideak</translation>
@@ -585,11 +598,6 @@ ezkerreko klik egiten dira, fitxategi-kudeatzaile lehenetsia ez denean ere.</tra
         <location filename="../desktop-preferences.ui" line="498"/>
         <source>Wallpaper folder</source>
         <translation>Horma-paperaren karpeta</translation>
-    </message>
-    <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
-        <source>Randomize the slide show</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

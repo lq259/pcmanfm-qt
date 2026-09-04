@@ -545,13 +545,21 @@ ha bal gombbal kattintanak rájuk, még akkor is, ha az nem az alapértelmezett 
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Diavetítés</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Diavetítés</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Diavetítés bekapcsolása</translation>
+        <translation type="vanished">Diavetítés bekapcsolása</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -589,6 +597,11 @@ ha bal gombbal kattintanak rájuk, még akkor is, ha az nem az alapértelmezett 
         <translation> perc</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation type="unfinished">Ne mutassa a fájlok elemleírását</translation>
@@ -599,9 +612,8 @@ ha bal gombbal kattintanak rájuk, még akkor is, ha az nem az alapértelmezett 
         <translation>Mappa</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Véletlenszerű diavetítés</translation>
+        <translation type="vanished">Véletlenszerű diavetítés</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

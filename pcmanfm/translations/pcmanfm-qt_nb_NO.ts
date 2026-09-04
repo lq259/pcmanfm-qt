@@ -552,13 +552,21 @@ venstreklikkes, selv når det ikke er forvalgt filbehandler.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Lysbildeshow</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Lysbildeshow</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Aktiver lysbildeshow</translation>
+        <translation type="vanished">Aktiver lysbildeshow</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -596,6 +604,11 @@ venstreklikkes, selv når det ikke er forvalgt filbehandler.</translation>
         <translation> minutte(r)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation type="unfinished">Ikke vis fil-verktøytips</translation>
@@ -606,9 +619,8 @@ venstreklikkes, selv når det ikke er forvalgt filbehandler.</translation>
         <translation>Skrivebordsbakgrunnsmappe</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Tilfeldig bilde i lysbildeshow</translation>
+        <translation type="vanished">Tilfeldig bilde i lysbildeshow</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

@@ -552,13 +552,21 @@ kliknete levým tlačítkem, i když to není výchozí správce souborů.</tran
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Prezentace</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Prezentace</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Měnit obrázky na pozadí</translation>
+        <translation type="vanished">Měnit obrázky na pozadí</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -596,6 +604,11 @@ kliknete levým tlačítkem, i když to není výchozí správce souborů.</tran
         <translation> minuty</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Neukazovat nástrojové rady k souborům</translation>
@@ -606,9 +619,8 @@ kliknete levým tlačítkem, i když to není výchozí správce souborů.</tran
         <translation>Složka s obrázky na plochu</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Náhodné pořadí prezentace</translation>
+        <translation type="vanished">Náhodné pořadí prezentace</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

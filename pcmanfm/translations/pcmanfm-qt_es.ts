@@ -548,13 +548,21 @@ es el gestor de archivos predeterminado.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Pase de diapositivas</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Pase de diapositivas</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Activar el cambio de imagen automático</translation>
+        <translation type="vanished">Activar el cambio de imagen automático</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -592,6 +600,11 @@ es el gestor de archivos predeterminado.</translation>
         <translation> minuto(s)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation type="unfinished">No mostrar descripciones emergentes de archivos</translation>
@@ -602,9 +615,8 @@ es el gestor de archivos predeterminado.</translation>
         <translation>Carpeta de fondos de pantalla</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Cambio de imagenes aleatorio</translation>
+        <translation type="vanished">Cambio de imagenes aleatorio</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

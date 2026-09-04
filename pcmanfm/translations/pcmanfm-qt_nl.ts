@@ -551,13 +551,21 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Diavoorstelling</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Diavoorstelling</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Diavoorstelling tonen</translation>
+        <translation type="vanished">Diavoorstelling tonen</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -595,6 +603,11 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
         <translation> minu(u)t(en)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Geen hulpballonnen van bestanden tonen</translation>
@@ -605,9 +618,8 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
         <translation>Map met bureaubladachtergrond</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Dia&apos;s in willekeurige volgorde tonen</translation>
+        <translation type="vanished">Dia&apos;s in willekeurige volgorde tonen</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

@@ -552,13 +552,21 @@ PCManFM-Qt rakendusega ka siis, kui ta pole vaikimisi failihaldur.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Slaidiseanss</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Slaidiseanss</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Luba slaidiseanss</translation>
+        <translation type="vanished">Luba slaidiseanss</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -596,6 +604,11 @@ PCManFM-Qt rakendusega ka siis, kui ta pole vaikimisi failihaldur.</translation>
         <translation> minut(it)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Ära näita failide teabemulle</translation>
@@ -606,9 +619,8 @@ PCManFM-Qt rakendusega ka siis, kui ta pole vaikimisi failihaldur.</translation>
         <translation>Taustapildi kaust</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Juhuslik slaidiseanss</translation>
+        <translation type="vanished">Juhuslik slaidiseanss</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

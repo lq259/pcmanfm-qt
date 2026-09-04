@@ -553,13 +553,21 @@ olarak seçilmese bile sol tıklandığında PCManFM-Qt&apos;de açılır.</tran
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Slayt Gösterisi</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Slayt Gösterisi</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Slayt Gösterisini Etkinleştir</translation>
+        <translation type="vanished">Slayt Gösterisini Etkinleştir</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -597,6 +605,11 @@ olarak seçilmese bile sol tıklandığında PCManFM-Qt&apos;de açılır.</tran
         <translation> .dakika(lar)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Dosya araç ipuçlarını gösterme</translation>
@@ -607,9 +620,8 @@ olarak seçilmese bile sol tıklandığında PCManFM-Qt&apos;de açılır.</tran
         <translation>Duvar kağıdı dizini</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Duvar kağıdı rasgele seçilsin</translation>
+        <translation type="vanished">Duvar kağıdı rasgele seçilsin</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

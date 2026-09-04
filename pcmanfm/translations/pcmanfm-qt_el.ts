@@ -553,13 +553,21 @@ are left clicked, even when it is not the default file manager.</source>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Διαπόραμα</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Διαπόραμα</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Ενεργοποίηση του διαποράματος</translation>
+        <translation type="vanished">Ενεργοποίηση του διαποράματος</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -597,6 +605,11 @@ are left clicked, even when it is not the default file manager.</source>
         <translation> λεπτό(ά)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Να μην εμφανίζονται οι υποδείξεις αρχείων</translation>
@@ -607,9 +620,8 @@ are left clicked, even when it is not the default file manager.</source>
         <translation>Φάκελος ταπετσαριών</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Τυχαιοποίηση των διαφανειών</translation>
+        <translation type="vanished">Τυχαιοποίηση των διαφανειών</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

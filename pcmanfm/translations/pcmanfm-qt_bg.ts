@@ -550,13 +550,21 @@ are left clicked, even when it is not the default file manager.</source>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Автоматична смяна</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Автоматична смяна</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Активиране на автоматична смяна</translation>
+        <translation type="vanished">Активиране на автоматична смяна</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -594,6 +602,11 @@ are left clicked, even when it is not the default file manager.</source>
         <translation> минута (и)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Без показване на подсказките на файловете</translation>
@@ -604,9 +617,8 @@ are left clicked, even when it is not the default file manager.</source>
         <translation>Папка с изображения за тапета</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Автоматична смяна на изображенията в случаен ред</translation>
+        <translation type="vanished">Автоматична смяна на изображенията в случаен ред</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

@@ -536,13 +536,21 @@ vinstrismellt á þær, jafnvel þegar hann er ekki sjálfgefinn skráastjóri.<
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Skyggnusýning</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Skyggnusýning</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Virkja skyggnusýningu</translation>
+        <translation type="vanished">Virkja skyggnusýningu</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -580,6 +588,11 @@ vinstrismellt á þær, jafnvel þegar hann er ekki sjálfgefinn skráastjóri.<
         <translation> Mínút(a/ur)</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation type="unfinished"></translation>
@@ -590,9 +603,8 @@ vinstrismellt á þær, jafnvel þegar hann er ekki sjálfgefinn skráastjóri.<
         <translation>Mappa með sjkáborðsmyndum</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Velja myndir af handahófi</translation>
+        <translation type="vanished">Velja myndir af handahófi</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

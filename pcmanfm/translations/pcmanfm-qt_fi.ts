@@ -552,13 +552,21 @@ klikattiin, vaikka se ei olisi oletustiedostonhallintaohjelma.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Diaesitys</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Diaesitys</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Käytä diaesitystä</translation>
+        <translation type="vanished">Käytä diaesitystä</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -596,6 +604,11 @@ klikattiin, vaikka se ei olisi oletustiedostonhallintaohjelma.</translation>
         <translation> minuuttia</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Älä näytä työkaluvihjettä tiedostoille</translation>
@@ -606,9 +619,8 @@ klikattiin, vaikka se ei olisi oletustiedostonhallintaohjelma.</translation>
         <translation>Taustakuvan kansio</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Satunnaista diaesitys</translation>
+        <translation type="vanished">Satunnaista diaesitys</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

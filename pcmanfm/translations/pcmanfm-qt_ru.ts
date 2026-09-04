@@ -550,13 +550,21 @@ are left clicked, even when it is not the default file manager.</source>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>Показ слайдов</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">Показ слайдов</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>Разрешить показ слайдов</translation>
+        <translation type="vanished">Разрешить показ слайдов</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -594,6 +602,11 @@ are left clicked, even when it is not the default file manager.</source>
         <translation> мин.</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation>Не показывать всплывающие подсказки файлов</translation>
@@ -604,9 +617,8 @@ are left clicked, even when it is not the default file manager.</source>
         <translation>Папка с обоями</translation>
     </message>
     <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Случайный порядок слайдов</translation>
+        <translation type="vanished">Случайный порядок слайдов</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>

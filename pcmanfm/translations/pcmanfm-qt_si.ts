@@ -546,13 +546,21 @@ are left clicked, even when it is not the default file manager.</source>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
-        <source>Slide Show</source>
-        <translation>ස්ලයිඩ පෙන්වීම</translation>
+        <source>Slideshow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
+        <source>Enable Slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slide Show</source>
+        <translation type="vanished">ස්ලයිඩ පෙන්වීම</translation>
+    </message>
+    <message>
         <source>Enable Slide Show</source>
-        <translation>ස්ලයිඩ පෙන්වීම සක්‍රිය කරන්න</translation>
+        <translation type="vanished">ස්ලයිඩ පෙන්වීම සක්‍රිය කරන්න</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
@@ -590,6 +598,11 @@ are left clicked, even when it is not the default file manager.</source>
         <translation> මිනිත්තු</translation>
     </message>
     <message>
+        <location filename="../desktop-preferences.ui" line="587"/>
+        <source>Randomize the slideshow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../desktop-preferences.ui" line="666"/>
         <source>Do not show file tooltips</source>
         <translation type="unfinished"></translation>
@@ -597,11 +610,6 @@ are left clicked, even when it is not the default file manager.</source>
     <message>
         <location filename="../desktop-preferences.ui" line="498"/>
         <source>Wallpaper folder</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../desktop-preferences.ui" line="587"/>
-        <source>Randomize the slide show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
